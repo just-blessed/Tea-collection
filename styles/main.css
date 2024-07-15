@@ -1,0 +1,80 @@
+
+/*Не нашел как сделать кастомный цвет с помощью Bootstrap bg-$gray-200 не работае( */
+.header {
+    background-color: #F8F9FA;
+}
+
+
+
+.slick-next:before {
+    content: url("../images/arrowNext.png");
+    display: inline-block;
+    text-align: center;
+    font-size: 31px;
+    line-height: 1;
+    opacity: 1;
+    background-color: #fefefe;
+    border-radius: 20px;
+    border: 1px solid blue;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev:before {
+    content: url("../images/arrowPrev.png");
+    display: inline-block;
+    text-align: center;
+    font-size: 32px;
+    line-height: 1;
+    opacity: 1;
+    background-color: #fefefe;
+    border-radius: 20px;
+    border: 1px solid blue;
+    width: 40px;
+    height: 40px;
+}
+
+.slider_content.slick-arrow{
+    display: block;
+}
+
+.slider_content .slick-prev {
+    top: 50%;
+    z-index: 5;
+    left: 10px;
+}
+
+
+.slider_content .slick-next {
+    top: 50%;
+    z-index: 5;
+    right: 30px;
+}
+
+/*Делал отсутпы как в макете*/
+.h2-text {
+    margin-top: 72px;
+    margin-bottom: 50px;
+}
+
+/*Не нашел другого решения как ограничить текст по ширине, по этому сделал тут чтобы было похоже как в макете*/
+.card-text {
+    max-width: 360px;
+}
+
+.custom-accordion {
+    cursor: pointer;
+}
+
+.custom-accordion .accordion-button:after {
+    background-image: url("../images/arrowDown.png");
+}
+
+.hvr-sweep-to-right:before {
+    background: #002fff;
+}
+
+/*Цвет тоже самое как и с хедером*/
+.footer {
+    background-color: #F8F9FA;
+}
